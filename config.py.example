@@ -1,8 +1,4 @@
-provider = dict(
-    server = "http://foo.bar:83",
-    username = "Floor",
-    password = "Tuomas"
-)
+provider = {"name": "test", "server": "http://foo.bar:83", "username": "Floor", "password": "Tuomas"}
 
 # write json responses to files
 write_files = 1
